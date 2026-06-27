@@ -1,0 +1,184 @@
+{
+  "version": 3,
+  "settings": {
+    "appearanceTools": false,
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1260px"
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "customSpacingSize": false,
+      "spacingSizes": [
+        { "name": "None", "slug": "none", "size": "0" },
+        { "name": "2XS",  "slug": "xxs",  "size": "0.25rem" },
+        { "name": "XS",   "slug": "xs",   "size": "0.5rem" },
+        { "name": "S",    "slug": "sm",   "size": "1rem" },
+        { "name": "M",    "slug": "md",   "size": "1.25rem" },
+        { "name": "L",    "slug": "lg",   "size": "1.5rem" },
+        { "name": "XL",   "slug": "xl",   "size": "2rem" },
+        { "name": "2XL",  "slug": "xxl",  "size": "3rem" }
+      ]
+    },
+    "color": {
+      "defaultPalette": false,
+      "custom": false,
+      "palette": [
+        { "name": "Primary",        "slug": "primary",        "color": "#6e9419" },
+        { "name": "Text",           "slug": "text",           "color": "#333535" },
+        { "name": "Heading",        "slug": "heading",        "color": "#061d19" },
+        { "name": "Background",     "slug": "background",     "color": "#ffffff" },
+        { "name": "Surface",        "slug": "surface",        "color": "#edf2f7" },
+        { "name": "Surface Accent", "slug": "surface-accent", "color": "#64748b" },
+        { "name": "Border",         "slug": "border",         "color": "#cdd2d1" }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "customFontSize": false,
+      "textDecoration": false,
+      "textTransform": false,
+      "letterSpacing": false,
+      "writingMode": false,
+      "lineHeight": false,
+      "fontWeight": false,
+      "fontStyle": false,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "name": "Outfit",
+          "slug": "outfit",
+          "fontFamily": "Outfit, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Outfit",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontDisplay": "swap",
+              "src": ["file:./assets/fonts/outfit/outfit-regular.woff2"]
+            }, {
+              "fontFamily": "Outfit",
+              "fontWeight": "500",
+              "fontStyle": "normal",
+              "fontDisplay": "swap",
+              "src": ["file:./assets/fonts/outfit/outfit-medium.woff2"]
+            }, {
+              "fontFamily": "Outfit",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontDisplay": "swap",
+              "src": ["file:./assets/fonts/outfit/outfit-semibold.woff2"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Text XS",
+          "slug": "text-xs",
+          "size": "0.75rem",
+          "fluid": false
+        }, {
+          "name": "Text SM",
+          "slug": "text-sm",
+          "size": "0.875rem",
+          "fluid": false
+        }, {
+          "name": "Text MD",
+          "slug": "text-md",
+          "size": "1rem",
+          "fluid": false
+        }, {
+          "name": "Text LG",
+          "slug": "text-lg",
+          "size": "1.125rem",
+          "fluid": false
+        }, {
+          "name": "Text XL",
+          "slug": "text-xl",
+          "size": "1.25rem",
+          "fluid": false
+        } ,{
+          "name": "Heading XS",
+          "slug": "heading-xs",
+          "size": "1.25rem",
+          "fluid": { "min": "1.25rem", "max": "1.56rem" }
+        }, {
+          "name": "Heading SM",
+          "slug": "heading-sm",
+          "size": "1.56rem",
+          "fluid": { "min": "1.56rem", "max": "1.95rem" }
+        }, {
+          "name": "Heading MD",
+          "slug": "heading-md",
+          "size": "1.95rem",
+          "fluid": { "min": "1.95rem", "max": "2.44rem" }
+        }, {
+          "name": "Heading LG",
+          "slug": "heading-lg",
+          "size": "2.44rem",
+          "fluid": { "min": "2.44rem", "max": "3.05rem" }
+        }
+      ]
+    },
+    "blocks": {
+      "core/heading": {
+        "color": { "text": false, "background": false },
+        "typography": { "fontFamilies": [], "fontSizes": [] }
+      },
+      "core/paragraph": {
+        "color": { "text": false, "background": false },
+        "typography": { "fontFamilies": [], "fontSizes": [] }
+      },
+      "core/separator": {
+        "color": {
+          "background": false
+        }
+      }
+    }
+  },
+
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--text)",
+      "background": "var(--wp--preset--color--background)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--outfit)",
+      "fontSize": "var(--wp--preset--font-size--text-md)",
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "lineHeight": "1.5"
+    },
+    "elements": {
+      "heading": {
+        "color": { "text": "var(--wp--preset--color--heading)" },
+        "typography": { "fontWeight": "600" }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--heading-lg)",
+          "lineHeight": "1.1"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--heading-sm)",
+          "lineHeight": "1.3"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--heading-xs)",
+          "lineHeight": "1.4"
+        }
+      }
+    }
+  },
+
+  "templateParts": [
+    { "name": "header",     "title": "Header",     "area": "uncategorized" },
+    { "name": "footer",     "title": "Footer",     "area": "uncategorized" },
+    { "name": "page-title", "title": "Page Title", "area": "uncategorized" }
+  ]
+}
